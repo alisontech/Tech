@@ -44,3 +44,7 @@ li a:hover {
 body {
     margin: 0;
 }
+
+.header {
+    background-color: teal;
+}
