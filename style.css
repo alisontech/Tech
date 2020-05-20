@@ -1,4 +1,4 @@
-
+/* Unordered list (navbbar) */
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,8 +7,10 @@ ul {
     overflow: hidden;
 }
 
+/* List (navbar) */
 li {
     float: left;
+    width: 33%;
 }
 
 li a {
@@ -24,6 +26,10 @@ li a:hover {
     background: #111111
 }
 
+.active {
+    background-color: #4CAF50;
+}
+
 /* Page content */
 .content {
     
@@ -37,12 +43,4 @@ li a:hover {
 
 body {
     margin: 0;
-}
-
-p {
-   padding: 10px; 
-}
-
-h1 { 
-    padding: 10px;
 }
