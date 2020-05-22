@@ -34,10 +34,6 @@ li a:hover {
 .content {
     
 }
-
-.main {
-    background-color: blueviolet;
-    height: 1500px;
     
 }
 
@@ -47,4 +43,7 @@ body {
 
 .header {
     background-color: teal;
+    padding: 60px;
+    tedt-align: center;
+    
 }
