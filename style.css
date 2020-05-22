@@ -7,7 +7,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: black;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -17,7 +17,7 @@ ul {
 /* List (navbar) */
 li {
     float: right;
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ li a {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-top: 10%;
+    padding-top: 40px;
     height: 100px;
 }
 
@@ -65,11 +65,22 @@ body {
     width: 100%;
 }
 
-.header {
-    background-color: teal;
-    padding: 60px;
+
+.left {
+    background-color: white;
+    width: 50%;
+    float: left;
+    height: 550px;
     text-align: center;
-    margin-top: ;
+}
+
+.right {
+    background-color: black;
+    width: 50%;
+    float: right;
+    height: 550px;
+    text-align: center;
+    color: white;
 }
 
 * {
