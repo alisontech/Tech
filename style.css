@@ -44,6 +44,6 @@ body {
 .header {
     background-color: teal;
     padding: 60px;
-    tedt-align: center;
-    
+    text-align: center;
+
 }
