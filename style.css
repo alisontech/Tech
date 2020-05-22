@@ -40,10 +40,11 @@ li a:hover:not(.active) {
     float: left;
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     padding-top: 20px;
     height: 100px;
+    
 }
 
   .active {
