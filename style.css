@@ -16,25 +16,36 @@ ul {
 
 /* List (navbar) */
 li {
-    float: left;
+    float: right;
     width: 25%;
     text-align: center;
 }
 
 li a {
     display: block;
-    padding: 14px 16px;
+    padding: 0 16px;
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-top: 15%;
-    height: 60px;
+    padding-top: 10%;
+    height: 100px;
 }
 
 li a:hover:not(.active) {
     background-color: #111;
   }
   
+/* LOGO */
+.logo {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    height: 100px;
+}
+
   .active {
     background-color: #4CAF50;
   }
@@ -63,4 +74,5 @@ body {
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
