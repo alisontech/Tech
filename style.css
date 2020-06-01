@@ -88,3 +88,10 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-image: url("images/blue-sky-clear-sky-cold-fog-346529.jpg");
+    height: calc(100vh - 100px);
+    background-position: center;
+    width: 100%;
+}
