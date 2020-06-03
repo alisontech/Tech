@@ -89,9 +89,20 @@ body {
     box-sizing: border-box;
 }
 
-header {
+/*#backgroundimg {
+    background-image: url("bluesky.jpg");
+    
+    height: 100vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    } */
+
+
+
+/* header {
     background-image: url("images/blue-sky-clear-sky-cold-fog-346529.jpg");
     height: calc(100vh - 100px);
     background-position: center;
     width: 100%;
-}
+} */
