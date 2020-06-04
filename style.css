@@ -1,5 +1,11 @@
-.navbar {
-    height: 100px;
+#container {
+    width: 100px;
+    height: 100x;
+    position: relative;
+}
+
+#navbar {
+    height: 110px;
 }
 
 /* Unordered list (navbbar) */
@@ -12,6 +18,10 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    height: 110px;
 }
 
 /* List (navbar) */
@@ -23,12 +33,12 @@ li {
 
 li a {
     display: block;
-    padding: 0 16px;
+    padding: 0 18px;
     color: white;
     text-align: center;
     text-decoration: none;
     padding-top: 40px;
-    height: 100px;
+    height: 110px;
 }
 
 li a:hover:not(.active) {
@@ -36,15 +46,23 @@ li a:hover:not(.active) {
   }
   
 /* LOGO */
-.logo {
-    float: left;
-    display: block;
-    color: white;
-    text-align: left;
+#logo {
+   left: 0;
+   width: 25%;
+   text-align: center;
+   bottom: initial;
+   margin-top: 25px;
+   font-size: 31px;
+   position: absolute;
+   top: 0;
+   z-index: 10;
+   position: fixed;
+   
+}
+
+#logo a {
     text-decoration: none;
-    padding-top: 20px;
-    height: 100px;
-    
+    color: white;
 }
 
   .active {
