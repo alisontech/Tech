@@ -6,6 +6,7 @@
 
 #navbar {
     height: 110px;
+
 }
 
 /* Unordered list (navbbar) */
@@ -45,20 +46,28 @@ li a:hover:not(.active) {
     background-color: #111;
   }
   
+@media only screen and (max-width: 723px) {
+    #logo a {
+        font-size: 20px;
+    }
+}
+
 /* LOGO */
 #logo {
-   left: 0;
-   width: 25%;
-   text-align: center;
-   bottom: initial;
-   margin-top: 25px;
-   font-size: 31px;
-   position: absolute;
-   top: 0;
-   z-index: 10;
-   position: fixed;
-   
-}
+    left: 0;
+    width: 50%;
+    text-align: center;
+    bottom: initial;
+    margin-top: 20px;
+    font-size: 31px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    padding-right: 200px;
+ }
 
 #logo a {
     text-decoration: none;
@@ -68,6 +77,8 @@ li a:hover:not(.active) {
   .active {
     background-color: #4CAF50;
   }
+
+
 
 /* Page content */
 .content {
