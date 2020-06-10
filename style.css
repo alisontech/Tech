@@ -33,12 +33,13 @@ li a {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-top: 40px;
+    padding-top: 45px;
     height: 110px;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: white;
+    color: black;
   }
   
 /* LOGO */
@@ -63,11 +64,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-  .active {
-    background-color: #4CAF50;
-  }
-
-
 
 /* Page content */
 .content {
@@ -84,7 +80,7 @@ body {
 }
 
 
-.left {
+#left {
     background-color: white;
     width: 50%;
     float: left;
@@ -92,7 +88,7 @@ body {
     text-align: center;
 }
 
-.right {
+#right {
     background-color: black;
     width: 50%;
     float: right;
