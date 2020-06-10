@@ -21,13 +21,13 @@ ul {
 }
 
 /* List (navbar) */
-li {
+#navbar li {
     float: right;
     width: 15%;
     text-align: center;
 }
 
-li a {
+#navbar li a {
     display: block;
     padding: 0 18px;
     color: white;
@@ -37,7 +37,7 @@ li a {
     height: 110px;
 }
 
-li a:hover:not(.active) {
+#navbar li a:hover:not(.active) {
     background-color: white;
     color: black;
   }
