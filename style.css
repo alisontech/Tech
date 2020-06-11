@@ -35,6 +35,7 @@ ul {
     text-decoration: none;
     padding-top: 45px;
     height: 110px;
+    font-weight: bold;
 }
 
 #navbar li a:hover:not(.active) {
@@ -105,13 +106,12 @@ body {
 img {
     height: auto; 
     max-width: 100%
-} 
+}
 
+#backgroundimg {
+    background-image: url("bluesky.jpg");
+}
 
+.headertxt {
 
-/* header {
-    background-image: url("images/blue-sky-clear-sky-cold-fog-346529.jpg");
-    height: calc(100vh - 100px);
-    background-position: center;
-    width: 100%;
-} */
+}
