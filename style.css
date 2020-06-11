@@ -36,11 +36,13 @@ ul {
     padding-top: 45px;
     height: 110px;
     font-weight: bold;
+    transition: .5s;
 }
 
 #navbar li a:hover:not(.active) {
     background-color: white;
     color: black;
+    transition: .5s;
   }
   
 /* LOGO */
