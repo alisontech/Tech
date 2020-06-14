@@ -141,5 +141,15 @@ img {
     cursor: pointer;
     font-size: 2vw;
     font-weight: 50;
+    transition: .5s;
   }
 
+  .headertxt button:hover {
+      color: white;
+      background-color: black;
+      transition: .5s;
+  }
+
+  .info {
+      height: 100vh;
+  }
