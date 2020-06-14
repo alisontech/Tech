@@ -4,7 +4,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -25,7 +25,7 @@ ul {
 #navbar li a {
     display: block;
     padding: 0 18px;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     padding-top: 45px;
@@ -35,8 +35,8 @@ ul {
 }
 
 #navbar li a:hover:not(.active) {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     transition: .5s;
   }
   
@@ -59,7 +59,7 @@ ul {
  /* LOGO WORD */
 #logo a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
@@ -140,7 +140,7 @@ img {
     text-align: center;
     cursor: pointer;
     font-size: 2vw;
-    font-weight: 50;
+    font-weight: bold;
     transition: .5s;
   }
 
@@ -152,4 +152,5 @@ img {
 
   .info {
       height: 100vh;
+      background-image: url("images/purpletree.jpg"); 
   }
