@@ -79,21 +79,43 @@ body {
 }
 
 
-#left {
+.left {
     background-color: white;
     width: 50%;
     float: left;
     height: 550px;
     text-align: center;
+    height: 100vh;
+    position: relative;
 }
 
-#right {
+.right {
     background-color: black;
     width: 50%;
     float: right;
     height: 550px;
     text-align: center;
     color: white;
+    height: 100vh;
+    position: relative;
+    background-image: url("images/vogue.png");
+    background-position: left;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+}
+
+.wrapleft {
+    position: absolute;
+    padding: 20px;
+}
+
+.wrapright {
+    position: absolute;
+    
+}
+
+.wrapleft h1 {
+    padding-left: 200px;
 }
 
 * {
