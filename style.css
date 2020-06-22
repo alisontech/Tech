@@ -179,3 +179,13 @@ img {
       height: 100vh;
       background-image: url(); 
   }
+
+footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+h3 {
+    padding: 40px;
+}
