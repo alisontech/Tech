@@ -102,19 +102,19 @@ body {
 
 .wrapleft {
     position: absolute;
-    padding: 20px;
+    margin: 0 auto;
+    margin-left: 1.5vw;
 }
 
 .wrapright {
     position: absolute;
-    
+    width: 45vw;
 }
 
 .wrapleft h1 {
     text-align: center;
-    margin: 0 auto;
-    width: 30vh;
-    padding-top: 15px;
+    height: 100px;
+    margin-top: 20px;
 }
 
 * {
