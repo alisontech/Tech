@@ -115,11 +115,13 @@ body {
 
 .wrapleft h1 {
     font-size: 100px;
+    
+    
 }
 
 .wrapleft h4 {
-    font-weight: 2px;
     color: #1d6490;
+    font-stretch: extra-condensed
 }
 
 * {
