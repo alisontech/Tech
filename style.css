@@ -100,21 +100,18 @@ body {
     background-repeat: no-repeat;
 }
 
-.wrapleft {
-    position: absolute;
-    margin: 0 auto;
-    margin-left: 1.5vw;
-}
+
 
 .wrapright {
     position: absolute;
     width: 45vw;
 }
 
-.wrapleft h1 {
-    text-align: center;
+.wrapleft {
+    text-align: left;
     height: 100px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 * {
@@ -169,15 +166,15 @@ img {
     border-radius: 12px;
   }
 
-  .headertxt button:hover {
-      color: white;
-      background-color: #071822;
-      transition: .5s;
-  }
+.headertxt button:hover {
+    color: white;
+    background-color: #071822;
+    transition: .5s;
+}
 
-  .info {
-      height: 100vh;
-      background-image: url(); 
+.info {
+     height: 100vh;
+     background-image: url(); 
   }
 
 footer {
