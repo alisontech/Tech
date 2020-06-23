@@ -81,7 +81,7 @@ body {
 
 .left {
     background-color: white;
-    width: 100px;
+    width: 100vh;
     float: left;
     height: 100vh;
     position: relative;
@@ -99,6 +99,7 @@ body {
     background-size: 180vh;
     background-repeat: no-repeat;
 }
+
 
 
 .wrapright {
