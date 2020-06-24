@@ -116,13 +116,13 @@ body {
 
 .wrapleft h1 {
     font-size: 100px;
-    
 }
 
 .wrapleft h3 {
     color: #1d6490;
     font-stretch: extra-condensed;
-    padding-left: 70px;
+    padding-left: 80px;
+    
 }
 
 * {
