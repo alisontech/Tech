@@ -121,8 +121,6 @@ body {
 .wrapleft h3 {
     color: #1d6490;
     font-stretch: extra-condensed;
-    padding-left: 80px;
-    
 }
 
 * {
@@ -194,6 +192,3 @@ footer {
     color: white;
 }
 
-h3 {
-    padding: 40px;
-}
