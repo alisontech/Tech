@@ -111,17 +111,18 @@ body {
     padding-top: 40px;
     padding-left: 70px;
     font-size: 3vh;
+    padding-right: 50px;
 }
 
 .wrapleft h1 {
     font-size: 100px;
     
-    
 }
 
-.wrapleft h4 {
+.wrapleft h3 {
     color: #1d6490;
-    font-stretch: extra-condensed
+    font-stretch: extra-condensed;
+    padding-left: 70px;
 }
 
 * {
