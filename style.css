@@ -87,7 +87,7 @@ body {
     position: relative;
 }
 
-.right {
+/*.right {
     background-color: black;
     width: 45%;
     float: right;
@@ -103,7 +103,7 @@ body {
 .wrapright {
     position: absolute;
     width: 45vw;
-}
+}*/
 
 .wrapleft {
     text-align: left;
@@ -112,6 +112,11 @@ body {
     padding-left: 70px;
     font-size: 3vh;
     padding-right: 50px;
+}
+
+.wrapleft p {
+    padding-right: 260px;
+    color: #383838;
 }
 
 .wrapleft h1 {
@@ -181,10 +186,14 @@ img {
     transition: .5s;
 }
 
-.bar {
+#right {
      height: 100vh;
-     background-image: url(); 
-  }
+     background-image: url("images/vogue.png"); 
+     background-position: right;
+     background-size: 180vh;
+     background-repeat: no-repeat;
+     
+}
 
 footer {
     background-color: black;
