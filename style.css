@@ -201,6 +201,11 @@ footer {
     color: white;
 }
 
-.card {
-    width: 18rem;
+.spacer {
+    background-color: #1d6490;
+    height: 20px;
+}
+
+.card-deck {
+    padding: 50px;
 }
