@@ -1,3 +1,17 @@
+
+/* Applies to everything*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body (applies to everything in body */
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'HCo Champion Heavywt','Champion', sans-serif;
+}
+
 /* Unordered list (navbbar) */
 ul {
     z-index: 9;
@@ -22,6 +36,7 @@ ul {
     text-align: center;
 }
 
+/* Navbar links */
 #navbar li a {
     display: block;
     padding: 0 18px;
@@ -34,6 +49,7 @@ ul {
     transition: .5s;
 }
 
+/* Navbar links when mouse hovers over them*/
 #navbar li a:hover:not(.active) {
     background-color: black;
     color: white;
@@ -64,19 +80,6 @@ ul {
 }
 
 
-/* Page content */
-.content {
-    padding: 20px;
-    height: 1000px;
-    margin: 0;
-    width: 100%;
-}
-
-body {
-    margin: 0;
-    width: 100%;
-    font-family: 'HCo Champion Heavywt','Champion', sans-serif;
-}
 
 
 .left {
@@ -126,11 +129,6 @@ body {
 .wrapleft h3 {
     color: #1d6490;
     font-stretch: extra-condensed;
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
 }
 
 img {
@@ -207,5 +205,7 @@ footer {
 }
 
 .card-deck {
-    padding: 50px;
+    padding: 70px;
+    background-color: #d7e0e5;
+    
 }
