@@ -13,7 +13,7 @@ body {
 }
 
 /* Unordered list (navbbar) */
-ul {
+#navbar ul {
     z-index: 9;
     list-style-type: none;
     margin: 0;
@@ -62,7 +62,7 @@ ul {
     left: 0;
     text-align: center;
     bottom: initial;
-    margin-top: 10px;
+    margin-top: 6px;
     position: absolute;
     top: 0;
     z-index: 10;
@@ -79,9 +79,7 @@ ul {
     color: #1d6490;
 }
 
-
-
-
+/*ABOUT ME BOX*/
 .left {
     background-color: white;
     width: 100vh;
@@ -136,7 +134,7 @@ img {
     max-width: 100%
 }
 
-.backgroundimg {
+#backgroundimg {
     background-image: url("images/bluesky.jpg"); 
     height: 100vh;
     background-position: center;
@@ -186,11 +184,12 @@ img {
 
 #right {
      height: 100vh;
-     background-image: url("images/vogue.png"); 
-     background-position: right;
+     width: 50%;
+     margin-left: 50%;
+     background-image: url("images/voguecropped.png"); 
+     background-position: left;
      background-size: 180vh;
      background-repeat: no-repeat;
-     
 }
 
 footer {
@@ -208,4 +207,8 @@ footer {
     padding: 70px;
     background-color: #d7e0e5;
     
+}
+
+.card ul li {
+    color: #1d6490;
 }
