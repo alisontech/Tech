@@ -193,6 +193,7 @@ footer {
     height: 100px;
     color: white;
     padding: 30px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .card-deck {
@@ -209,13 +210,19 @@ footer {
     color: #1d6490;
 }
 
+#firstphoto {
+    background-image: url("images/throne.jpg");
+    background-size: 100vh;
+}
+
 iframe {
     display: block;
 }
 
-.contactimage {
+#contactimage {
     background-image: url("images/purpletree.jpg");
     height: 100vh;
     background-size: 220vh;
     background-position: bottom;
+    background-repeat: no-repeat;
 }
