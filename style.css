@@ -195,11 +195,6 @@ footer {
     padding: 30px;
 }
 
-.spacer {
-    background-color: #1d6490;
-    height: 20px;
-}
-
 .card-deck {
     padding: 70px;
     background-color: #d7e0e5;
@@ -210,6 +205,14 @@ footer {
     color: #1d6490;
 }
 
+.card p {
+    color: #1d6490;
+}
+
 iframe {
     display: block;
+}
+
+.contactimage {
+    background-image: url("images/water.jpg");
 }
