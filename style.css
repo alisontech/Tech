@@ -214,5 +214,8 @@ iframe {
 }
 
 .contactimage {
-    background-image: url("images/water.jpg");
+    background-image: url("images/purpletree.jpg");
+    height: 100vh;
+    background-size: 220vh;
+    background-position: bottom;
 }
