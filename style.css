@@ -226,7 +226,39 @@ footer {
     background-position: bottom;
 }
 
+#thirdphoto {
+    background-image: url("images/diningbw.jpg");
+    height: 100vh;
+    background-size: 220vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#fourthphoto {
+    background-image: url("images/longbw.jpg");
+    height: 100vh;
+    background-size: 220vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#fifthphoto {
+    background-image: url("images/lowanglebw.jpg");
+    height: 100vh;
+    background-size: 220vh;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
 #sixthphoto {
+    background-image: url("images/fountainbw.jpg");
+    height: 100vh;
+    background-size: 220vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#seventhphoto {
     background-image: url("images/throne.jpg");
     height: 100vh;
     background-size: 220vh;
