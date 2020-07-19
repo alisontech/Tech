@@ -211,7 +211,7 @@ footer {
 }
 /* PHOTOS */
 #firstphoto {
-    background-image: url("images/birdseyebw.jpg");
+    background-image: url("images/birdseye.jpg");
     height: 100vh;
     background-size: 220vh;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ footer {
 }
 
 #secondphoto {
-    background-image: url("images/eyesbw.jpg");
+    background-image: url("images/eyes.jpg");
     height: 100vh;
     background-size: 220vh;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ footer {
 }
 
 #thirdphoto {
-    background-image: url("images/diningbw.jpg");
+    background-image: url("images/dining.jpg");
     height: 100vh;
     background-size: 220vh;
     background-repeat: no-repeat;
@@ -235,7 +235,7 @@ footer {
 }
 
 #fourthphoto {
-    background-image: url("images/longbw.jpg");
+    background-image: url("images/long.jpg");
     height: 100vh;
     background-size: 220vh;
     background-repeat: no-repeat;
@@ -243,7 +243,7 @@ footer {
 }
 
 #fifthphoto {
-    background-image: url("images/lowanglebw.jpg");
+    background-image: url("images/lowangle.jpg");
     height: 100vh;
     background-size: 220vh;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ footer {
 }
 
 #sixthphoto {
-    background-image: url("images/fountainbw.jpg");
+    background-image: url("images/fountain.jpg");
     height: 100vh;
     background-size: 220vh;
     background-repeat: no-repeat;
@@ -259,12 +259,13 @@ footer {
 }
 
 #seventhphoto {
-    background-image: url("images/throne.jpg");
+    background-image: url("images/bath.jpg");
     height: 100vh;
     background-size: 220vh;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 iframe {
     display: block;
