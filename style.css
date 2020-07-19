@@ -88,24 +88,6 @@ body {
     position: relative;
 }
 
-/*.right {
-    background-color: black;
-    width: 45%;
-    float: right;
-    color: white;
-    height: 100vh;
-    position: relative;
-    background-image: url("images/vogue.png");
-    background-position: left;
-    background-size: 180vh;
-    background-repeat: no-repeat;
-}
-
-.wrapright {
-    position: absolute;
-    width: 45vw;
-}*/
-
 .wrapleft {
     text-align: left;
     height: 100px;
@@ -196,6 +178,7 @@ footer {
     background-color: black;
     height: 100px;
     color: white;
+    padding: 30px;
 }
 
 .spacer {
@@ -211,4 +194,8 @@ footer {
 
 .card ul li {
     color: #1d6490;
+}
+
+iframe {
+    display: block;
 }
