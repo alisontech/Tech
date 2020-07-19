@@ -283,12 +283,16 @@ iframe {
 .contact {
     position: absolute;
     color: white;
-    top: 30%;
-    padding-left: 70px;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+}
+
+.contact h1 {
+    font-family: 'Work Sans', sans-serif;
     
 }
 
-.contact h3 {
-    font-family: 'Work Sans', sans-serif;
+.contact p {
     
 }
