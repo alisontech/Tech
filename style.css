@@ -291,7 +291,7 @@ iframe {
 
 .contact h1 {
     font-family: 'Work Sans', sans-serif;
-    color: #f5cda7;
+    color: white;
 }
 
 .contact p {
@@ -303,4 +303,20 @@ iframe {
 
 .socials {
     position: absolute;
+    text-align: center;
+    background: none;
+    width: 95vw;
+    padding-top: 450px;
+    word-spacing: 15px;
+    
+}
+
+.socials li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.socials li a {
+    border-bottom: none;
 }
