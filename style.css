@@ -296,19 +296,21 @@ iframe {
 
 /* contact header */
 .contact h5 {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     font-size: 2vw;
 }
 
 /* phone number */
 .contact p:nth-child(3) {
     font-size: 2.5vw;
+    letter-spacing: 5px;
+    padding-top: x;
 }
 
 /* email */
 .contact p:nth-child(2) {
     font-size: 3vw;
-    padding-bottom: 150px;
+    padding-bottom: 10x;
     letter-spacing: 9px;
     color: white;
 }
