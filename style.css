@@ -19,7 +19,7 @@
     background: #555;
 }
 
-/* Body (applies to everything in body */
+/* Body (applies to everything in body) */
 body {
     margin: 0;
     width: 100%;
@@ -71,7 +71,7 @@ body {
     
   }
   
-/* LOGO */
+/* LOGO (container for navbar)*/
 #logo {
     left: 0;
     text-align: center;
@@ -87,47 +87,10 @@ body {
     width: 60%;
  }
 
- /* LOGO WORD */
+ /* LOGO WORD (in navbar)*/
 #logo a {
     text-decoration: none;
     color: #1d6490;
-}
-
-/*ABOUT ME BOX*/
-.left {
-    background-color: white;
-    width: 100vh;
-    float: left;
-    height: 100vh;
-    position: relative;
-}
-
-.wrapleft {
-    text-align: left;
-    height: 100px;
-    padding-top: 40px;
-    padding-left: 70px;
-    font-size: 3vh;
-    padding-right: 50px;
-}
-
-.wrapleft p {
-    padding-right: 260px;
-    color: #383838;
-}
-
-.wrapleft h1 {
-    font-size: 100px;
-}
-
-.wrapleft h3 {
-    color: #1d6490;
-    font-stretch: extra-condensed;
-}
-
-img {
-    height: auto; 
-    max-width: 100%
 }
 
 #backgroundimg {
@@ -177,6 +140,48 @@ img {
     background-color: #071822;
     transition: .5s;
 }
+
+
+/*ABOUT ME BOX*/
+.left {
+    background-color: white;
+    width: 100vh;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+/* About me container */
+.wrapleft {
+    text-align: left;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 70px;
+    font-size: 3vh;
+    padding-right: 50px;
+}
+
+/*About me text*/
+.wrapleft p {
+    padding-right: 100px;
+    color: #383838;
+}
+
+.wrapleft h1 {
+    font-size: 100px;
+}
+
+.wrapleft h3 {
+    color: #1d6490;
+    font-stretch: extra-condensed;
+}
+
+img {
+    height: auto; 
+    max-width: 100%
+}
+
+
 
 #right {
      height: 100vh;
@@ -286,22 +291,23 @@ iframe {
     width: 100%;
     text-align: center;
     top: 10%;
-    
+    font-family: 'Work Sans', sans-serif;
 }
 
-.contact h1 {
-    font-family: 'Work Sans', sans-serif;
+.contact h5 {
+    padding-bottom: 100px;
+    font-size: 2vw;
+}
+
+.contact p:nth-child(3) {
+    font-size: 2.5vw;
+}
+
+.contact p:nth-child(2) {
+    font-size: 3vw;
+    padding-bottom: 150px;
+    letter-spacing: 9px;
     color: white;
-    letter-spacing: 12px;
-    font-size: 2.5em;
-}
-
-.contact p:nth-child(1) {
-    font-size: 1.7em;    
-}
-
-.contact p:nth-child(2){
-    font-family: 'Work Sans', sans-serif;
 }
 
 /* SOCIAL MEDIA ICONS */
